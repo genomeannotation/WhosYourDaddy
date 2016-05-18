@@ -10,6 +10,7 @@ def main():
 	def usage():
 		print ("\n-usage: " + sys.argv[0] + " <inputfile> <error percent #>")
 		print ("-example: " + sys.argv[0] + " Bdor_big2.lepmap 5\n")
+                print ("\nLatest version at:\nhttps://github.com/genomeannotation/WhosYourDaddy\n")
 		sys.exit()
 
 	if len(sys.argv) < 3:
